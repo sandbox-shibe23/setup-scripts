@@ -1,6 +1,6 @@
 # setup-scripts
 
-# How to install
+## How to install
 
 ```
 # run node.js setup script
