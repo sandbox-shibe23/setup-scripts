@@ -1,1 +1,2 @@
-curl -OL https://raw.githubusercontent.com/shibe23/setup-scripts/main/node/.eslintrc.json
+#!/bin/bash
+curl -OL "https://raw.githubusercontent.com/shibe23/setup-scripts/main/node/.eslintrc.json"
