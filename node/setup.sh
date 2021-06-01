@@ -1,6 +1,6 @@
 #!/bin/bash
 npm init -y
-npm i -D eslint eslint-config-prettier
+npm i -D eslint eslint-config-prettier prettier
 curl -OL "https://raw.githubusercontent.com/shibe23/setup-scripts/main/node/.eslintrc.json"
 mkdir src
 touch main.js && mv main.js src/main.js # `touch src/main.js`の場合src以下に作成されないため、mvを利用する
