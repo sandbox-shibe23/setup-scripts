@@ -2,7 +2,7 @@
 npm init -y
 npm i -D eslint eslint-config-prettier
 curl -OL "https://raw.githubusercontent.com/shibe23/setup-scripts/main/node/.eslintrc.json"
-mkdir src && touch src/main.js
+mkdir src && touch ./src/main.js
 
 ## package.jsonを編集
 mv package.json temp.json
